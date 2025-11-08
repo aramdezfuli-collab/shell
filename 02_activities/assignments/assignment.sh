@@ -18,6 +18,7 @@ cd newproject
 
 mkdir analysis output
 touch README.md
+echo "# Project Name: DSI Consulting Inc." > README.md
 touch analysis/main.py
 
 # download client data
@@ -33,8 +34,7 @@ mkdir data
 mv ./rawdata ./data/raw
 
 # 3. List the contents of the ./data/raw directory
-cd ./data/raw
-ls
+ls ./data/raw
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
 cd ..
 pwd
